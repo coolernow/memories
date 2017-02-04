@@ -1,0 +1,48 @@
+body {
+	background-color: grey;
+}
+#cardone{
+	Card one 
+}
+
+#cardone:hover{
+	width: 150px;
+	height: 211px;
+	margin: 10px;
+	border: 2px solid #000;
+	display: block;
+	animation-name: cardonespin;
+	animation-duration: 4s;
+}
+
+@keyframes cardonespin{
+	from{
+		transform: rotateY(0deg);
+	}
+	to{
+		transform: rotateY(180deg);
+	}
+}
+
+#cardtwo{
+	Card two
+}
+
+#cardtwo:hover{
+	width: 150px;
+	height: 211px;
+	margin: 10px;
+	border: 2px solid #000;
+	display: block;
+	animation-name: cardtwospin;
+	animation-duration: 4s;
+}
+
+@keyframes cardtwospin{
+	from{
+		transform: rotateY(0deg);
+	}
+	to{
+		transform: rotateY(180deg);
+	}
+}
