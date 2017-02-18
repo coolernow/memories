@@ -1,18 +1,39 @@
 body {
-	background-color: grey;
+	background-image: url("assets/giphy.gif"); 
+}
+.container{
+	width: 200px; 
+ 	height: 260px;
+ 	position: relative;
+ 	perspective: 800px;
 }
 #cardone{
-	Card one 
+	width: 200px;
+	height: 220px;
+	position: absolute;
+	transform-style: preserve-3d;
+	transition: transform 1s;
 }
 
-#cardone:hover{
-	width: 150px;
-	height: 211px;
-	margin: 10px;
-	border: 2px solid #000;
-	display: block;
-	animation-name: cardonespin;
-	animation-duration: 4s;
+
+#cardone figure {
+  margin: 0;
+  display: block;
+  position: absolute;
+  width: 200px;
+  height: 220px;
+  backface-visibility: hidden;
+}
+
+#cardone .front {
+background-color: red;
+}
+#cardone .back {
+	background-color: blue;
+	  transform: rotateY( 180deg );
+}
+#cardone:active{
+	transform: rotateY(180deg);
 }
 
 @keyframes cardonespin{
@@ -23,26 +44,185 @@ body {
 		transform: rotateY(180deg);
 	}
 }
-
+.container2{
+	width: 200px; 
+ 	height: 260px;
+ 	position: relative;
+ 	perspective: 800px;
+}
 #cardtwo{
-	Card two
+	width: 200px;
+	height: 220px;
+	position: absolute;
+	transform-style: preserve-3d;
+	transition: transform 1s;
 }
 
-#cardtwo:hover{
-	width: 150px;
-	height: 211px;
-	margin: 10px;
-	border: 2px solid #000;
-	display: block;
-	animation-name: cardtwospin;
-	animation-duration: 4s;
+
+#cardtwo figure {
+  margin: 0;
+  display: block;
+  position: absolute;
+  width: 200px;
+  height: 220px;
+  backface-visibility: hidden;
 }
 
-@keyframes cardtwospin{
-	from{
-		transform: rotateY(0deg);
-	}
-	to{
-		transform: rotateY(180deg);
-	}
+#cardtwo .front {
+background-color: red;
 }
+#cardtwo .back {
+	background-color: blue;
+	  transform: rotateY( 180deg );
+}
+#cardtwo:active{
+	transform: rotateY(180deg);
+}
+
+.container3{
+	width: 200px; 
+ 	height: 260px;
+ 	position: relative;
+ 	perspective: 800px;
+}
+#cardthree{
+	width: 200px;
+	height: 220px;
+	position: absolute;
+	transform-style: preserve-3d;
+	transition: transform 1s;
+}
+
+
+#cardthree figure {
+  margin: 0;
+  display: block;
+  position: absolute;
+  width: 200px;
+  height: 220px;
+  backface-visibility: hidden;
+}
+
+#cardthree .front {
+background-color: red;
+}
+#cardthree .back {
+	background-color: blue;
+	  transform: rotateY( 180deg );
+}
+#cardthree:active{
+	transform: rotateY(180deg);
+}
+
+.container4{
+	width: 200px; 
+ 	height: 260px;
+ 	position: relative;
+ 	perspective: 800px;
+}
+#cardfour{
+	width: 200px;
+	height: 220px;
+	position: absolute;
+	transform-style: preserve-3d;
+	transition: transform 1s;
+}
+
+
+#cardfour figure {
+  margin: 0;
+  display: block;
+  position: absolute;
+  width: 200px;
+  height: 220px;
+  backface-visibility: hidden;
+}
+
+#cardfour .front {
+background-color: red;
+}
+#cardfour .back {
+	background-color: blue;
+	  transform: rotateY( 180deg );
+}
+#cardfour:active{
+	transform: rotateY(180deg);
+}
+
+.container5{
+	width: 200px; 
+ 	height: 260px;
+ 	position: relative;
+ 	perspective: 800px;
+}
+#cardfive{
+	width: 200px;
+	height: 220px;
+	position: absolute;
+	transform-style: preserve-3d;
+	transition: transform 1s;
+}
+
+
+#cardfive figure {
+  margin: 0;
+  display: block;
+  position: absolute;
+  width: 200px;
+  height: 220px;
+  backface-visibility: hidden;
+}
+
+#cardfive .front {
+background-color: red;
+}
+#cardfive .back {
+	background-color: blue;
+	  transform: rotateY( 180deg );
+}
+#cardfive:active{
+	transform: rotateY(180deg);
+}
+
+
+.container6{
+	width: 200px; 
+ 	height: 260px;
+ 	position: relative;
+ 	perspective: 800px;
+}
+#cardsix{
+	width: 200px;
+	height: 220px;
+	position: absolute;
+	transform-style: preserve-3d;
+	transition: transform 1s;
+}
+
+
+#cardsix figure {
+  margin: 0;
+  display: block;
+  position: absolute;
+  width: 200px;
+  height: 220px;
+  backface-visibility: hidden;
+}
+
+#cardsix .front {
+background-color: red;
+}
+#cardsix .back {
+	background-color: blue;
+	  transform: rotateY( 180deg );
+}
+#cardsix:active{
+	transform: rotateY(180deg);
+}
+
+
+
+
+
+
+
